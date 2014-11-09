@@ -4,6 +4,7 @@ $(function() {
   var time = moment();
   $('.clock-container').text(time.format('h:mm:ss a')).addClass('clock');
   var myFunc = function(){
+    time = moment();
     var currentTime = function(location, className){
       $(location).text(time.format('h:mm:ss a')).addClass(className);
     };
