@@ -29,7 +29,6 @@ $(function() {
   var alarmTime = userHours + ':' + userMinutes + dayTime; 
   var alarmMoment = moment({hour: userHours, minute: userMinutes})
   alarms.push(alarmMoment);
-  var li = '<li class="'+ alarmTime +'">' + alarmTime + '</li>'
-    console.log(alarmTime, 'UserTime')
-  }) 
-});  
+  $('.user-alarm').text(alarmTime); 
+ }); 
+});
