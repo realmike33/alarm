@@ -26,13 +26,28 @@ li{
 	left: 0px;
 }
 
-button{
+.add-alarm{
 	background-color: #FF8A65;
 	color: #FFCCBC;
 	font-size: 50px;	
 }
 
-button:hover{
+.add-alarm:hover{
 	background-color: #78909C;
 	color: #CFD8DC;
 }
+
+.user-alarm{
+	padding: 2px 6px 3px;
+	border: 2px;
+	color: #EF9A9A;
+}
+.past-alarm{
+	background-color: #E53935;
+	color: #FFEBEE;
+	font-size: 50px;
+}
+.past-alarm:hover{
+	background-color: #9FA8DA;
+	color: #E8EAF6;
+};

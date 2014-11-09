@@ -7,17 +7,20 @@
   <div class="clock-container">
   </div>
  <div class="alarm">
-  <button>Add Alarm</button>
-  <ul></ul>
+  <button class="add-alarm">Add Alarm</button>
+  <button class="past-alarm">Past Alarms</button>
  </div>
- <section class="hide">
-  <form>
-    <input type="date">
-  </form>
- </section>
+  <input type="number" class="time">Hour</input>
+  <input type="number" class="time">Minutes</input>
+  <input type="checkbox" class="time">AM</input>
+  <input type="checkbox" class="time">PM</input>
+ <div class="user-alarm">
+  <ol>
+    <li><li>
+  </ol>
+ </div>
 </body>
 <script src="moment.min.js"></script>
 <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
-<script src="bower_components/jquery-timepicker-jt/jquery.timepicker.min.js"></script>
-<script src='app.js'></script>
+<script src="app.js"></script>
 </html>
